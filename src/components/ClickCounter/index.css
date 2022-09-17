@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.container {
+  background-color: #f1f5f8;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.count-text {
+  font-family: 'Roboto';
+  font-size: 45px;
+  font-weight: bold;
+  color: #2d3a35;
+}
+
+.information {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #2d3a35;
+}
+.count {
+  font-family: 'Roboto';
+  font-size: 44px;
+  font-weight: bold;
+  color: #c20a72;
+}
+.button {
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  height: 35px;
+  width: 75px;
+}
+
+@media screen and (max-width: 767px) {
+  .button {
+    font-size: 15px;
+    height: 35px;
+    width: 85px;
+  }
+}
